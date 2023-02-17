@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import { MainLayout } from '@/components/layouts/MainLayout'
 
-export default function Home() {
+export default function Contact() {
   return (
     <MainLayout>
-      Ir a <Link href="about">
+      Ir a <Link href="/">
             <h2>
-              About
+              Home
             </h2>
           </Link>
     </MainLayout>
